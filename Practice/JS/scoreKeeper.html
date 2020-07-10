@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Score Keeper</title>
+	<style type="text/css">
+
+		body{
+			margin: auto 40%;
+			background-color: pink;
+		}
+		h1{
+			/*margin-left:30%;*/
+			/*margin-right: 35%;*/
+			font-size: 70px;
+			color: mediumslateblue;
+			
+		}
+		div {
+			/*margin:auto 30%;*/
+			padding-bottom: 20px;
+		}
+		div p{
+			display: inline-block;
+			text-align: center;
+			padding-right:5px;
+			font-size: 20px;
+		}
+
+		div input{
+			width:60px;
+		}
+
+		#reset{
+			width:70px;
+		}
+
+		/*div #buttons{
+			margin: auto 30%;
+		
+		}*/
+		.winner{
+			color:green;
+		}
+	</style>
+
+</head>
+<body>
+<h1> <span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
+
+<div class="input">
+	<p>Playing to: <span >5</span></p>
+	<input type="number">
+</div>
+
+<div class="buttons">
+	<button id="p1">Player one</button>
+	<button id="p2">Player two</button>
+	<button id="reset">Reset</button>
+</div>
+
+<script type="text/javascript" src="scoreKeeper.js"></script>
+</body>
+</html>
