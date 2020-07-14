@@ -1,0 +1,66 @@
+h1{
+	font-size: 50px;
+}
+
+.imgs{	
+	/*text-align:center;*/
+	
+}
+
+.row1{
+	margin:10px;
+	width:30%;
+	display: inline-block
+}
+
+.row2{
+	margin: 10px;
+	width:30%;
+	display: inline-block;
+	
+}
+
+.row3{
+	margin: 10px;
+	width:30%;
+	/*display: inline-block*/
+	
+}
+
+img{
+	width: 100%;
+	/*margin:1.66%;*/
+}
+
+/*#imgs11{
+	width: 100%;
+}
+
+#imgs12{
+	width: 100%;
+}
+#imgs13{
+	width: 100%;
+}
+
+#imgs21{
+	width: 100%;
+}
+
+#imgs22{
+	width: 100%;
+}
+#imgs23{
+	width: 100%;
+}
+
+#imgs31{
+	width: 100%;
+}
+
+#imgs32{
+	width: 100%;
+}
+#imgs33{
+	width: 100%;
+}*/
