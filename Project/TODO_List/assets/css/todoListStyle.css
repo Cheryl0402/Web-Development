@@ -1,3 +1,9 @@
 body{
-	background-color: purple;
+	background-color: pink;
+}
+
+#container{
+	background-color: lightblue;
+	width:360px;
+	margin: 0 auto;
 }
