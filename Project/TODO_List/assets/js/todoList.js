@@ -20,3 +20,14 @@ $("li").click(function(){
 	// }
 	
 });
+
+
+// Click on X to delete TODO
+$("span").click(function(){
+	// $(this).parent().remove();// span.parent() is li, so li removed.
+	$(this).parent().fadeOut(500, function(){
+		$(this).remove(); // remove the entire li
+	});
+	event.stopPropagation();  // stops other events to fire 
+	//because elements are nested which leads to other/parents elements triggered.
+});
