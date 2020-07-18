@@ -1,5 +1,5 @@
 
-### This repositary includes following parts:
-- Projects - Projects I did 
-- Practice - Small practice exercises while learning
+### My Web-Development repositary includes three parts:
+- Projects - Projects I work on.
+- Practice - Small practice exercises while learning.
 - Notes - Basic notes about WebDev.
