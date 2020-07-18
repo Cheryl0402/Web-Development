@@ -1,3 +1,6 @@
 # Web-Development
 
-Notes and projects of Web Development learning.
+This repositary includes projects, practice and some notes during Web Development learning.
+- Projects
+- Practice
+- Notes
