@@ -5,18 +5,16 @@ var bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({extended:true}));
 app.set("view engine", "ejs");
 
-
+var campgrounds = [
+	{name:"Salmon Creek", image:"https://www.photosforclass.com/download/px_2419278"},
+	{name:"Granite Hill", image:"https://www.photosforclass.com/download/px_803226"},
+	{name:"Mountain Goat's Rest", image:"https://www.photosforclass.com/download/pb_1851092"}	
+];
 
 app.get("/", function(req,res){
 	res.render("landing");
 });
 
-
-	var campgrounds = [
-		{name:"Salmon Creek", image:"https://www.photosforclass.com/download/px_2419278"},
-		{name:"Granite Hill", image:"https://www.photosforclass.com/download/px_803226"},
-		{name:"Mountain Goat's Rest", image:"https://www.photosforclass.com/download/pb_1851092"}
-	]
 
 app.get("/campgrounds", function(req,res){
 
